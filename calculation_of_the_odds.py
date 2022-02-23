@@ -42,3 +42,8 @@ ends = np_aw_t[-1,:]
 # Plot histogram of ends, display plot
 plt.hist(ends)
 plt.show()
+
+#Calculation of the Odds
+odds = (np.count_nonzero(ends>=60))/500
+print(f"The odds of winning in the bet will be {str(odds * 100)}%.")
+
