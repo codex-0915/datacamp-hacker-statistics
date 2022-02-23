@@ -29,4 +29,20 @@ for i in range(10) :
     # Append random_walk to all_walks
     all_walks.append(random_walk)
 
-print(all_walks)
+# Convert all_walks to NumPy array: np_aw
+np_aw = np.array(all_walks)
+
+# Plot np_aw and show
+plt.plot(np_aw)
+plt.show()
+
+# Clear the figure
+plt.clf()
+
+# Transpose np_aw: np_aw_t
+np_aw_t = np.transpose(np_aw)
+
+# Plot np_aw_t and show
+plt.plot(np_aw_t)
+plt.show()
+
