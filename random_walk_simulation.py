@@ -34,6 +34,5 @@ plt.plot(random_walk)
 # Show the plot
 plt.show()
 
-##### Random Walk Distribution #####
 
 
